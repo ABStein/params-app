@@ -1,0 +1,16 @@
+<!-- <form action="/form_send_example" method="post">
+  <div>
+    Enter message: <input type="text" name="form_message">
+
+  </div>
+  <input type="submit" value="send_message"> 
+</form> -->
+
+<%= form_tag "/form_send_example", method: :post do %>
+  <div>
+    Enter message: <input type="text" name="form_message">
+
+  </div>
+  <input type="submit" value="send_message"> 
+
+<% end %>
